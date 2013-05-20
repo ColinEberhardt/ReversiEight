@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="d5c21b89-c6a8-453c-97e2-0e4d5e1428c2" Publisher="CN=ColinE" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ReversiEight</DisplayName>
+    <PublisherDisplayName>ColinE</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ReversiEight.App">
+      <VisualElements DisplayName="ReversiEight" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ReversiEight" ForegroundText="light" BackgroundColor="#662a1f">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
